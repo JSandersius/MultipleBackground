@@ -1,6 +1,17 @@
 #example1 {
-    background-image: url("/Users/sebastiansandersius/ReposNuevo/MultipleBackground/public/images/volcano1.jpg"), url("/Users/sebastiansandersius/ReposNuevo/MultipleBackground/public/images/volcano2.jpg");
+    background-image: url("../public/images/img.flwr.gif"), url("../public/images/paper.gif");
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
+}
+
+#div1 {
+    background: url(img_flower.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#div2 {
+    background: url(img_flower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
