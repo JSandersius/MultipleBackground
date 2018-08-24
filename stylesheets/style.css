@@ -1,16 +1,17 @@
 #example1 {
-    background-image: url("../public/images/img.flwr.gif"), url("../public/images/paper.gif");
+    background-image: url("../images/img_flwr.gif"), url("../images/paper.gif");
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
 }
 
 #div1 {
-    background: url(img_flower.gif);
+    background: url("../images/paper.gif");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #div2 {
-    background: url(img_flower.gif);
+    background: url("../images/img_flwr.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
