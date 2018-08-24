@@ -1,5 +1,6 @@
 #example1 {
-    background-image: url("../images/volcano1"), url("../images/volcano2");
+    background-image: url("/Users/sebastiansandersius/ReposNuevo/MultipleBackground/public/images/volcano1.jpg"), url("/Users/sebastiansandersius/ReposNuevo/MultipleBackground/public/images/volcano2.jpg");
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
 }
+
